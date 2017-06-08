@@ -48,8 +48,8 @@ span{
 
 #to-do-list{
 	/*text-align: center;*/
-	list-style-type: decimal;
-	width: 50%;
+	list-style-type:decimal;
+	width: 100%;
 	height:;
 	background-color:#fff;
 	display: block;
@@ -61,7 +61,16 @@ span{
 	word-wrap: break-word;
 }
 
-#to-do-list ul li{
+#to-do-list li{
 	border:1px solid black;
 }
+
+
+.close {
+   /* color: white;
+    /*float: right;*/
+    font-size: 28px;
+    font-weight: bold;*/
+}
+
 

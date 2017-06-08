@@ -12,10 +12,19 @@ function addToDo(event){
 		return false;
 	}
 
-
-	toDoList.innerHTML += '<li>' + userInput.value + '</li>';
+	toDoList.innerHTML = '<li>' + userInput.value + '</li>' + toDoList.innerHTML;
+	// toDoList.innerHTML += '<li>' + userInput.value + '</li>' + toDoList.innerHTML ;
 	userInput.value = '';//This refreshed the text box after a word is submitted.
 
+	
 }
 
+
+// function toDoList1(){
+// 	this.parentNode.parentNode.removeChild(this.parentNode);
+// }
+
+
+
 userSubmit.addEventListener('click', addToDo);
+
